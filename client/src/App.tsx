@@ -40,6 +40,7 @@ function App() {
 		created_at: "",
 		location: "",
 		html_url: "",
+		public_repos: 0
 	});
 
 	const [isLoading, setIsLoading] = useState(false);
@@ -62,6 +63,7 @@ function App() {
 				created_at: response.data.created_at.split("-")[0],
 				location: response.data.location,
 				html_url: response.data.html_url,
+				public_repos: response.data.public_repos
 			});
 			setSuccessfulRequest(RequestState.success);
 		} catch (err) {
