@@ -2,7 +2,11 @@
  
 A simple React web app where you can get a user's GitHub profile.
 
-I built this app to practice my React and Chakra UI skills, as well as to learn how to handle API requests and responses.
+I built this app as a challenge presented by the Fullstack roadmap from roadmap.sh, while having 3 objectives in mind:
+
+- To polish my React and Chakra UI skills
+- To learn how to handle API requests and responses
+- To practice user-app interactivity
 
 ## Features
 - Enter a GitHub username to fetch the user's profile information
