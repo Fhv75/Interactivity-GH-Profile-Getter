@@ -28,7 +28,7 @@ I built this app as a challenge presented by the Fullstack roadmap from roadmap.
 4. Start the development server using 'npm run dev'
 5. Open your browser and visit http://localhost:5173 to view the app
 
-Alternatively, you can access the app [here]()
+Alternatively, you can access the app [here](https://fhv75.github.io/Interactivity-GH-Profile-Getter/)
 ## Usage
 1. Enter a GitHub username in the input field.
 2. Click the search button or press Enter.
