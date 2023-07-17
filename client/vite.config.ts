@@ -3,5 +3,6 @@ import { defineConfig } from "vite";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+	base: "/Interactivity-GH-Profile-Getter",
 	plugins: [react()],
 });
