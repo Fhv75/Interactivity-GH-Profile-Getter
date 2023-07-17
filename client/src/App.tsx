@@ -84,7 +84,7 @@ function App() {
 		>
 			<Header />
 
-			<Center mt={20} flexDirection="column">
+			<Center mt={8} flexDirection="column">
 				<form onSubmit={handleSubmit(onSubmit)}>
 					<HStack>
 						<Input
