@@ -9,6 +9,7 @@ import {
 	Heading,
 	Input,
 	Spinner,
+	Text,
 } from "@chakra-ui/react";
 import axios from "axios";
 import { useState } from "react";
@@ -36,7 +37,6 @@ function App() {
 		login: "",
 		avatar_url: "",
 		bio: "",
-		public_repos: 0,
 		created_at: "",
 		location: "",
 		html_url: "",
@@ -59,7 +59,6 @@ function App() {
 				login: response.data.login,
 				avatar_url: response.data.avatar_url,
 				bio: response.data.bio,
-				public_repos: response.data.public_repos,
 				created_at: response.data.created_at.split("-")[0],
 				location: response.data.location,
 				html_url: response.data.html_url,
@@ -97,6 +96,9 @@ function App() {
 							<Search2Icon />
 						</Button>
 					</HStack>
+					{errors.username && (
+						<Text mt={2} mx={3} color="purple.600">You can't leave this empty!</Text>
+					)}
 				</form>
 
 				<Box mt={8} minW="85%">
