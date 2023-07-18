@@ -36,7 +36,7 @@ Alternatively, you can access the app [here](https://fhv75.github.io/Interactivi
 4. The user's profile and popular repositories will be displayed on the screen.
    
 ## Contributing
-I would humbly appreciate if you have any suggestion or contribution to make. If you have any, please create a new issue or submit a pull request.
+I would humbly appreciate any suggestion or contribution you would like to make. If you have any, please create a new issue or submit a pull request.
 
 ## License
 This project is licensed under the [MIT License](https://opensource.org/license/mit/).
